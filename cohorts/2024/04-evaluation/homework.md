@@ -4,6 +4,7 @@
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
+Solution: [homework.ipynb](homework.ipynb)
 
 In this homework, we will use the Bank Marketing dataset. Download it from [here](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip).
 
@@ -50,7 +51,7 @@ ROC AUC could also be used to evaluate feature importance of numerical variables
 
 Let's do that
 
-* For each numerical variable, use it as score and compute AUC with the `y` variable
+* For each numerical variable, use it as score (aka prediction) and compute the AUC with the `y` variable as ground truth.
 * Use the training dataset for that
 
 
